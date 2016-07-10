@@ -8,8 +8,6 @@
 
 int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, char*, int nShowCmd)
 {
-	_CrtSetDbgFlag(_CRTDBG_CHECK_ALWAYS_DF);
-	_CrtSetDbgFlag(_CRTDBG_CHECK_CRT_DF);
 	//Initialize window and input handling
 	egInitCore();
 	//Create window
